@@ -1,5 +1,5 @@
 # PHP_Daikin
-Based on information available publicly I have build this class for controlling Daikin AC units from PHP. This code was tested and in working with the Daikin BRP069B43 & BRP069B45 WiFi modules; however is not working with Altherma heat pomps.
+Based on information available publicly I have build this class for controlling Daikin AC units from PHP. This code was tested and is working with the Daikin BRP069B43 & BRP069B45 WiFi modules; however is not working with Altherma heat pomps.
 
 I highly recommend that before and after you send a command to an AC unit, use a delay of at least 1000 microseconds (usleep(1000)). WiFi modules have very poor processing power and is very easy to flood them.
 
